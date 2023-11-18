@@ -1,0 +1,127 @@
+img{
+    max-height: 110px;
+}
+
+.box img {
+    box-shadow: 0 0 10px 5px rgba(37, 6, 6, 0.53);
+
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    color: white;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+}
+
+
+
+.box img:hover {
+    box-shadow: 0 0 10px 5px rgba(53, 27, 224, 0.53);
+}
+
+
+
+#id_borders span.hovered {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+
+}
+
+
+nav a:hover {
+    transform: scale(1.05);
+    text-shadow: 2px 2px 10px rgb(36, 7, 151);
+    transition: transform 0.3s;
+
+}
+
+
+#id_row h1 {
+    font-weight: 200;
+
+}
+#id_row h2 {
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: rgba(60, 59, 59, 0.367);
+    margin: 0px 20px;
+    border-radius: 5%;
+}
+
+
+#id_row h1:hover {
+    transform: scale(1.05);
+    text-shadow: 2px 2px 10px rgba(233, 231, 239, 0.483);
+    transition: transform 0.5s;
+}
+
+#id_row h3 {
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.816);
+
+
+}
+@media only screen and (max-width: 767px) {
+    #id_row h1 {
+        font-weight: 300;
+        font-size: 2rem;
+
+    }
+
+    #id_row p {
+        font-size: 0.8rem;
+    }
+
+    #id_row h2 {
+        font-size: 1rem;
+        }
+
+    #id_row h3 {
+        font-size: 1.5rem;
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #id_row h1 {
+        font-size: 4rem;
+    }
+
+    #id_row p {
+        font-size: 0.8rem;
+    }
+
+    #id_row h2 {
+        font-size: 1.5rem;
+
+    }
+
+    #id_row h3 {
+        font-size: 1.5rem;
+
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #id_row h1 {
+        font-size: 4.5rem;
+    }
+
+    #id_row p {
+        font-size: 1rem;
+    }
+
+    #id_row h2 {
+        font-size: 1.7rem;
+
+    }
+
+    #id_row h3 {
+        font-size: 1.4rem;
+
+    }
+}
